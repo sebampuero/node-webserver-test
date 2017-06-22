@@ -30,7 +30,7 @@ hbs.registerHelper('getCurrentYear',()=>{
 
 app.get('/',(req,res)=>{
   res.render('home.hbs',{
-    title : 'Welcome to the page',
+    title : 'Edu cabro',
     welcomeTitle : 'Home'
   });
 });
