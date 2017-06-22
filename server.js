@@ -40,6 +40,12 @@ app.get('/about',(req,res)=>{
     title : 'About'
   });
 });
+app.get('/projects',(req,res)=>{
+  res.render('projects.hbs',{
+    title : 'My portfolio'
+  });
+});
+
 
 app.listen(port, ()=>{
   console.log(`Listening on port ${port}`);
